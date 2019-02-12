@@ -1,0 +1,24 @@
+.tjanster{
+    margin: 0;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 10%;
+}
+.tjanster h3, .tjanster p{
+    color: white;
+}
+.tjanster h2{
+    font-size: 7vw;
+}
+.tjanster h3{
+    font-size: 5vw;
+    margin: 1vh;
+}
+.tjanster-img{
+    width: 25vw;
+    padding: 0;
+    margin: 0;
+}
+.tjanster-box{
+    margin: 10% 10px 7%;
+}

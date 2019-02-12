@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fantastic Four</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"><!-- Google Font -->
+    <link rel="stylesheet" href="style/style.css">                                  <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">         <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>                 <!-- AOS -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">                 <!-- Favicon -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo" width="500" hidden></div>
+            <!-- Mobile navigation -->
+            <div class="dropdown">
+                <img src="images/hamburger-logo.svg" alt="Hamburger-logo" onclick="myFunction()" class="dropbtn">
+                <div id="myDropdown" class="dropdown-content">
+                    <img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo" width="100">
+                    <a href="#home">Hem</a>
+                    <a href="#tjanster">Våra Tjänster</a>
+                    <a href="#projekt">Projekt</a>
+                    <a href="#om-oss">Om Oss</a>
+                    <a href="#kontakt">Kontakt</a>
+                </div>
+            </div>
+            <!-- Desktop navigation -->
+            <div class="desktop-nav" id="desktop-nav" hidden>
+                <div class="nav-img"><a href="#home"><img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo"></a></div>
+                <div class="navigation">
+                    <div><a href="#home">Hem</a></div>
+                    <div><a href="#tjanster">Våra Tjänster</a></div>
+                    <div><a href="#projekt">Projekt</a></div>
+                    <div><a href="#om-oss">Om Oss</a></div>
+                    <div><a href="#kontakt">Kontakt</a></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- HOME -->
+        <div class="hem" id="home">
+            <img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo">
+            <h1>Fantastic Four</h1>
+            <h3>Nå din fulla digitala potential med oss på F4</h3>
+            <div class="border-bottom"></div>
+        </div>
+        <!-- 1 -->
+
+        <img src="images/coffeecup.jpg" alt="Cup of coffee" id="coffee-cup">
+        
+        <!-- TJÄNSTER -->
+        <div class="tjanster" id="tjanster">
+
+            <h2>Våra tjänster</h2>
+
+            <div class="tjanster-box">
+                <img src="images/seo.svg" alt="SEO" class="tjanster-img">
+                <h3>Sökoptimering</h3>
+                <p>Till SEO hör både de tekniska och kreativa komponenterna. Fler och fler företag får upp ögonen för SEO varje dag och konkurrensen är hård när man vill marknadsföra sig på detta sätt. Det är därför en fördel att anlita en kunnig SEO-konsult som utför sökordsoptimeringen åt en för bästa resultat.</p>
+            </div>
+
+            <div class="tjanster-box">
+                <img src="images/frontend.svg" alt="Frontend" class="tjanster-img">
+                <h3>Front End</h3>
+                <p>Front-end är det användaren ser i sin webbläsare, gränssnittet för webbplatsen som användaren interagerar med. <br> Bra kod för HTML, CSS och JavaScript, som är front-end-utvecklarens primära redskap, ger det din webbplats möjlighet att både synas och fungera bra.</p>
+            </div>
+
+            <div class="tjanster-box">
+                <img src="images/responsive2.svg" alt="Responsiv Web" class="tjanster-img">
+                <h3>Responsive Web</h3>
+                <p>Responsiv webbdesign innebär webbdesign som tillåter layouten att förändras beroende på vilken skärmstorlek och skärmupplösning som besökaren har, och beroende på vilka funktioner som webbläsaren stödjer.  Antal kolumner och bilder kan anpassas automatiskt efter skärmen.</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <!-- 2 -->
+
+        <!-- VÅRA PROJEKT -->
+        <div class="projekt" id="projekt">
+
+            <h2>Våra senaste projekt</h2> 
+
+            <div class="placering-img-projekt">
+
+                <div class="vara-projekt-center">
+                    <div class="wrapper">
+                        <img src="images/Metataggar.JPG" alt="Metataggar" class="webben">
+                        <img src="images/MetataggarPhone.JPG" alt="MetataggarPhone" class="mobil">
+                        <div class="overlay overlay-meta">
+                            <div class="overlay-content">Metataggar<a href="https://emmahagg.github.io/Metataggar/" target="_blank">
+                                Gå till hemsidan</a>
+                            </div>
+                            <p class="hide-mobile">En av våra senaste projekt gjordes till företaget New Meta som ville få ut kunskapen om metataggar till världen!
+                            Vi hjälpte dem att sätta upp en sida med mycket unik design som och som fungerar på all skärmstorlekar.
+                            </p>
+                        </div>
+                        <p class="hide-webb">En av våra senaste projekt gjordes till företaget New Meta som ville få ut kunskapen om metataggar till världen!
+                        Vi hjälpte dem att sätta upp en sida med mycket unik design som och som fungerar på all skärmstorlekar.</p>
+                    </div>
+                </div> <!--vara-projekt-center slut-->
+            
+
+                <div class="vara-projekt-center ">
+                    <div class="wrapper">
+                        <img src="images/skeleton.JPG" alt="skeleton" class="webben"><img src="images/skeletonPhone.JPG" alt="skeletonPhone" class="mobil">
+                        <div class=" overlay overlay-skeleton">
+                            <div class="overlay-content">Skeleton<a href="https://bikelund.github.io/Skeleton/#home" target="_blank">Gå till hemsidan</a></div>
+                            <p class="hide-mobile">Vi hjälpte Skeleton AB att marknadsföra deras produkt genom att bygga dem en enkel snygg hemsida med deras egna ramverk!
+                            Den fungerar responsivt och har självklart sökoptimerats.
+                            </p> 
+                        </div>
+                        <p class="hide-webb">Vi hjälpte Skeleton AB att marknadsföra deras produkt genom att bygga dem en enkel snygg hemsida med deras egna ramverk!
+                        Den fungerar responsivt och har självklart sökoptimerats.
+                        </p>
+                    </div>
+                </div> <!--vara-projekt-center slut-->
+
+            </div> <!--placering-img-projekt slut-->
+
+        </div>
+        <!-- 3 -->
+
+        <div class="line"></div>
+
+        <!-- OM OSS -->
+        <div class="om-oss" id="om-oss">
+            <h2>Om Oss</h2>
+
+            <div class="namn1 left" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <img src="profilbilder/nicklas.jpg" alt="Nicklas Barklund" class="center">
+
+                <div class="content">
+                    <h4>Nicklas Barklund</h4>
+    
+                    <div class="symboler">
+                        <a href=""> <img src="symboler/mail.png" alt="Mail"></a>
+                        <a href="https://github.com/Bikelund" target="_blank"><img src="symboler/github-logo.png" alt="Github"></a>
+                        <a href="https://www.linkedin.com/in/nicklas-barklund/" target="_blank"><img src="symboler/linkedin-logo.png" alt="LinkedIN"></a>
+                    </div>
+                </div>
+
+                <div class="text text-right"><p>Nicklas är en av våra skickligaste JS utvecklare med många års erfarenhet inom branschen.
+                    Nicklas började redan i tonåren att intressera sig för kodning och har under årens gång lyckats samla på sig den kompetens som vi idag är glada att kunna erbjuda er här på F4.</p>
+                </div>
+            </div>
+
+            <div class="namn2 right" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <img src="profilbilder/emmi.jpg" alt="Emmi Torstensson" class="center ">
+             
+                <div class="content">
+                    <h4>Emmi Torstensson</h4>
+    
+                    <div class="symboler">
+                        <a href=""> <img src="symboler/mail.png" alt="Mail"></a>
+                        <a href="https://github.com/EmmiTorstensson" target="_blank"><img src="symboler/github-logo.png" alt="Github"></a>
+                        <a href="https://www.linkedin.com/in/emmi-torstensson-21208834/" target="_blank"><img src="symboler/linkedin-logo.png" alt="LinkedIN"></a>
+                    </div>
+                </div>
+
+                <div class="text text-left"><p>Letar ni efter en expert inom design och kreativitet så har vi här Emmi!
+                    Ett proffs på allt ifrån färgskalor till att ta fram en ny logga till ert företag.
+                    Hennes designintresse började som liten och på senare år valde hon att kombinera det tillsammans med webbutvecklingen och är idag en av våra skarpaste Frontend utvecklare.</p>
+                </div>
+            </div>
+
+            <div class="namn1 left" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <img src="profilbilder/tobias.jpg" alt="Tobias Rosenlind" class="center">
+              
+                <div class="content">
+                    <h4>Tobias Rosenlind</h4>
+    
+                    <div class="symboler">
+                        <a href=""> <img src="symboler/mail.png" alt="Mail"></a>
+                        <a href="https://github.com/tobberos" target="_blank"><img src="symboler/github-logo.png" alt="Github"></a>
+                        <a href="https://www.linkedin.com/in/tobias-rosenlind-0559a716b/" target="_blank"><img src="symboler/linkedin-logo.png" alt="LinkedIN"></a>
+                    </div>
+                </div>
+        
+                <div class="text text-right"><p>Tobias besitter en bred kompetens inom alla våra Frontend områden. Vill du ha en konsult för att diskutera den bästa webblösningen för ditt företag då är han rätt kille. 
+                    Han drar snabbt ihop en grund som ni sedan kan bygga hela eran ide på!</p>
+                </div>
+            </div>
+
+            <div class="namn2 right" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <img src="profilbilder/emma.jpg" alt="Emma Hägg" class="center">
+             
+                <div class="content">
+                    <h4>Emma Hägg</h4>
+    
+                    <div class="symboler">
+                        <a href=""> <img src="symboler/mail.png" alt="Mail"></a>
+                        <a href="https://github.com/EmmaHagg" target="_blank"><img src="symboler/github-logo.png" alt="Github"></a>
+                        <a href="https://www.linkedin.com/in/emma-h%C3%A4gg-970217133/" target="_blank"><img src="symboler/linkedin-logo.png" alt="LinkedIN"></a>
+                    </div>
+                </div>
+        
+                <div class="text text-left"><p>Startade sin karriär inom IT säkerhet och drift men förälskade sig snabbt i magin som programmeringen bar med sig. Hon har nu många år på nacken inom Frontend och tillsammans med hennes kollegor blir de ett ostoppbart team!</p>
+                </div>
+            </div>
+        </div>
+        <!-- 4 -->
+
+        <img src="images/student.jpg" alt="Student at computer" class="bild-1">
+        
+        <!-- KONTAKT -->
+        <div class="kontakt-bild grid5">
+            <h2 class="kontakt-bild-text">Kontakt</h2>
+            <h3 class="kontakt-bild-text2">Vi hjälper dig skräddarsy en webbplats</h3>
+            <h3 class="kontakt-bild-text2">Ring eller maila oss så berättar vi mer</h3>
+            <br>
+            <h3 class="kontakt-bild-text3">+46 (0) 777 77 7777</h3>
+            <h3>info@fantastic4.com</h3>
+        </div>
+        <!-- 5 -->
+    </main>
+    
+    <footer class="kontakt grid-container-kontakt" id="kontakt">  
+        <div class="kontakt-box grid1">
+            <h2>Kontakt</h2>
+            <h3>info@fantastic4.com</h3>
+            <h3>+46 (0) 777 77 7777</h3>
+        </div>
+
+        <div class="kontakt-box grid2">
+            <h2>Adress</h2>
+            <h3>Internetvägen 1</h3>
+            <h3>112 21 Stockholm</h3>
+        </div> 
+
+        <div class="kontakt-box grid3">
+            <h2>Följ Oss</h2>
+            <a href="https://www.instagram.com/konsultdojan/" target="_blank"><img src="images/instagram-logo.png" alt="Instagram" class="kontaktImg"></a>
+            <img src="images/linkedin-logo.png"  alt="Linkedin"  class="kontaktImg">
+            <img src="images/facebook-logo.png"  alt="Facebook"  class="kontaktImg">
+        </div>
+
+        <div class="kontakt-box grid4">
+            <h2>Karriär</h2>
+            <h3>karriar@fantastic4.com</h3>
+        </div>
+
+        <div class="footer-logga grid6">
+            <img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo">
+        </div>       
+    </footer>
+
+    <!-- Javascript -->
+    <script type="text/javascript">
+        AOS.init({  duration: 1400,
+                    disable: window.innerWidth < 800 }); /* Disable animation on phone */
+    </script>
+    <script src="javascript/scroll.js"></script>
+    <script src="javascript/hamburger.js"></script>
+</body>
+</html>
